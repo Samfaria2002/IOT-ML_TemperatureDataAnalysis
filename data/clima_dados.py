@@ -31,5 +31,4 @@ plt.xlabel('Data')
 plt.ylabel('Temperatura (°C)')
 plt.xticks(rotation=45)
 plt.tight_layout()
-
 plt.show()
