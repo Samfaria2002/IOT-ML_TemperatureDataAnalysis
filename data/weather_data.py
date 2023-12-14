@@ -24,6 +24,7 @@ for dia in dias:
     dia_plot.append(data_format)
     tempo_plot.append(temperatura)
 
+'''
 plt.figure(figsize=(12, 6))
 plt.plot(dia_plot, tempo_plot, marker='o', linestyle=':')
 plt.title(f'Tempo em {cidade}')
@@ -32,3 +33,4 @@ plt.ylabel('Temperatura')
 plt.xticks(rotation=45)
 plt.tight_layout()
 plt.show()
+'''
